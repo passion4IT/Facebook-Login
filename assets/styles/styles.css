@@ -1,0 +1,55 @@
+.main-page, .dashboard {
+    min-height: 1000px;
+    background: #f3f3f3;
+}
+
+.dashboard {
+    margin: 5%;
+}
+
+.login-block {
+    background: #deffd0;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 8px #7fbd8f;
+    margin: 20% 0%;
+}
+
+.login-button {
+    background: rgb(58,88,184);
+    color: white;
+    padding: 4px 56px;
+}
+
+.login-button:hover, .facebook-link {
+    color: white;
+}
+
+.heading {
+    background: #7897dc;
+    color: white;
+    border: 1px solid #99a79c;
+}
+
+.user-details {
+    border: 2px solid lightgray;
+    padding: 50px 20px;
+
+}
+
+.facebook-link {
+    background: rgb(58,88,184);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.cover-pic {
+    height: 300px;
+    position: relative;
+}
+
+.profile-pic {
+    position: absolute;
+    bottom: 0%;
+    right: 4%;
+}

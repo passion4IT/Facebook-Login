@@ -1,0 +1,39 @@
+<!-- Default home page -->
+<title>Facebook Login</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+</script>
+<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<link href='styles/styles.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+
+
+<div class="dashboard container">
+    <div class="col-xs-12 picture-container">
+        <a href="/logout" class="btn logout-button pull-right">
+          <i class="fa fa-sign-out" aria-hidden="true"></i>
+           Logout
+        </a>
+    </div>
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="col-xs-4">
+                <img src="<%= user.coverPic %>" class="img-responsive cover-pic" />
+                <img src="<%= user.profilePic %>" class="img-responsive profile-pic" />
+            </div>
+            <div class="col-xs-8 user-details">
+                <p>Welcome <%= user.first_name %> <%= user.last_name %>! </p>
+                <p class="text-center text-info heading"> Here are your basic details: </p>
+                <p>Motivation:
+                  <span class="text-success">  <%= user.about %> </span>
+                 </p>
+                <p> Contact email: <span class="text-success"> <%= user.contact %> </span><p>
+                <p> Date of birth: <span class="text-success"> <%= user.birthday %> </span><p>
+                <a href="<%= user.facebookLink %>" target="_blank">
+                    <i class="fa fa-facebook facebook-link"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
