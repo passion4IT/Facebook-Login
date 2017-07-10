@@ -1,6 +1,6 @@
 
 # Facebook-Login
-Facebook login app using SailJs and Bootstrap
+Facebook login app using SailJs, passport, bcrypt and Bootstrap
 
 # Instructions to setup:
 
