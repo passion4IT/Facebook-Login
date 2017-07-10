@@ -1,3 +1,3 @@
-# facebook-login
 
-a [Sails](http://sailsjs.org) application
+# Facebook-Login
+Facebook login app using SailJs and Bootstrap
