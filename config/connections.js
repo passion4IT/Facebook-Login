@@ -30,10 +30,10 @@ module.exports.connections = {
   ***************************************************************************/
   localMysql: {
     adapter: 'sails-mysql',
-    host: '127.0.0.1',
-    user: 'root',
-    password: '',
-    database: 'facebook_login'
+    host: 'mysql-database-host',
+    user: 'mysql-user',
+    password: 'mysql-password',
+    database: 'database_name'
   },
 
   /***************************************************************************

@@ -46,8 +46,8 @@ module.exports = {
         customMiddleware: function (app) {
             console.log('Express Middleware -- Start Facebook Passport Strategy')
             passport.use(new FacebookStrategy({
-                    clientID: "1850803855237452",
-                    clientSecret: "e6b927a11b694360da74ae08c389a3ee",
+                    clientID: "App-client-id",
+                    clientSecret: "App-client-secret",
                     callbackURL: "http://localhost:1337/auth/facebook/callback",
                     profileFields: ['id',
                         'displayName',
