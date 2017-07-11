@@ -8,7 +8,8 @@ Facebook login app using SailJs, passport, bcrypt and Bootstrap
     - npm install
 
 - config databases credentails 
-    - Mysql has been used. Feel free to test with other implementations.
+    - Mysql has been used. Therefore, change credentails of database in config/connection.js.
+    Feel free to test with other implementations.
 
 - configure facebook app credentials
     - AppId, App secret in config/express.js
